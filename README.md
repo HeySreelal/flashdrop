@@ -33,7 +33,7 @@ FlashDrop is a **zero-config** file transfer server that lets you instantly send
 ### Installation
 ```bash
 # Clone and build
-git clone <your-repo-url>
+git clone https://github.com/HeySreelal/flashdrop
 cd flashdrop
 go build -o flashdrop flashdrop.go
 ```
@@ -70,7 +70,7 @@ go build -o flashdrop flashdrop.go
 </td>
 <td width="50%">
 
-### 🧠 **Smart Technology**
+### 🧠 **The Technology**
 - Auto IP detection using `ipconfig getifaddr en0`
 - Intelligent zip compression
 - Timestamped file naming
@@ -147,18 +147,6 @@ graph LR
 - **Network:** HTTP server on port 8000
 - **Platform:** macOS (with easy Linux/Windows adaptation)
 
----
-
-## 📱 Screenshots
-
-<div align="center">
-
-| Desktop Terminal | Mobile Interface |
-|:----------------:|:----------------:|
-| ![Terminal](https://via.placeholder.com/300x200/667eea/white?text=🖥️+Terminal+Output) | ![Mobile UI](https://via.placeholder.com/200x300/764ba2/white?text=📱+Beautiful+UI) |
-
-*Clean terminal output showing server status* | *Responsive mobile interface with download button*
-
 </div>
 
 ---
@@ -191,18 +179,6 @@ git push origin feature/amazing-feature
 - [ ] Dark/light theme toggle
 - [ ] Transfer progress bars
 - [ ] Windows/Linux compatibility
-
----
-
-## 📊 Performance
-
-| File Size | Zip Time | Transfer Time | Memory Usage |
-|-----------|----------|---------------|--------------|
-| 10 MB     | ~1s      | ~2s           | <50 MB       |
-| 100 MB    | ~5s      | ~15s          | <100 MB      |
-| 1 GB      | ~30s     | ~2 min        | <200 MB      |
-
-*Tested on MacBook Pro M1 with iPhone 14 over WiFi 6*
 
 ---
 
